@@ -1,6 +1,10 @@
-math_score = 8
-english_score = 7
-python_score = 9
-average_score = (math_score + english_score + python_score) / 3  
-report = f"Diem trung binh: {average_score:.2f}" 
-print(report)
+name = input("ten: ")
+a = float(input("s1: "))
+b = float(input("s2: "))
+tong = a + b
+hieu = a - b
+tich = a * b
+print(f"\nXin chào {name}!")
+print(f"Tổng: {a} + {b} = {tong}")
+print(f"Hiệu: {a} - {b} = {hieu}")
+print(f"Tích: {a} * {b} = {tich}")
